@@ -10,7 +10,7 @@ function likeOpen() {
 }
 
 function sifirla() {
-    window.location.href = '/src/index.html';
+    window.location.href = '/index.html';
 }
 
 let basket = JSON.parse(localStorage.getItem("basket")) || []

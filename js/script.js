@@ -28,7 +28,6 @@ function show() {
     if(data.length > 0){
         data.slice(0, count)
         .map((item, i) => {
-            
             kod += `
                     <div>
                      <a target="_blank" href="pages/details.html?id=${item.id}&name= ${item.brand}&${item.price}">
@@ -167,7 +166,7 @@ function ehtiyyatHisse() {
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">Tezliklə ehtiyyat hissələr ve aksesuarlar əlavə ediləcək.</p>
             <p class="mt-4 mb-8 dark:text-gray-600">Müvəqqəti narahatçılığa görə üzür istəyirik.</p>
-			<a rel="noopener noreferrer" href="/src/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
+			<a rel="noopener noreferrer" href="/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>`
@@ -184,7 +183,7 @@ function ehtiyyatHisse() {
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">Tezliklə Dilerlər əlavə ediləcək.</p>
             <p class="mt-4 mb-8 dark:text-gray-600">Müvəqqəti narahatçılığa görə üzür istəyirik.</p>
-			<a rel="noopener noreferrer" href="/src/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
+			<a rel="noopener noreferrer" href="/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>`
@@ -201,7 +200,7 @@ function avtoKataloq(){
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">Tezliklə Avtokataloq əlavə ediləcək.</p>
             <p class="mt-4 mb-8 dark:text-gray-600">Müvəqqəti narahatçılığa görə üzür istəyirik.</p>
-			<a rel="noopener noreferrer" href="/src/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
+			<a rel="noopener noreferrer" href="//index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>`
@@ -218,7 +217,7 @@ function moto(){
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">Tezliklə Moto əlavə ediləcək.</p>
             <p class="mt-4 mb-8 dark:text-gray-600">Müvəqqəti narahatçılığa görə üzür istəyirik.</p>
-			<a rel="noopener noreferrer" href="/src/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
+			<a rel="noopener noreferrer" href="/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>`
@@ -235,7 +234,7 @@ function icare(){
 			</h2>
 			<p class="text-2xl font-semibold md:text-3xl">Tezliklə Icare əlavə ediləcək.</p>
             <p class="mt-4 mb-8 dark:text-gray-600">Müvəqqəti narahatçılığa görə üzür istəyirik.</p>
-			<a rel="noopener noreferrer" href="/src/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
+			<a rel="noopener noreferrer" href="/index.html" class="px-8 py-3 font-semibold rounded dark: bg-red-700 dark:text-gray-50">Back to homepage</a>
 		</div>
 	</div>
 </section>`
