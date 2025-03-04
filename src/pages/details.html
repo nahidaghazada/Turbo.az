@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../turbo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../output.css">
+</head>
+<body>
+    <body class="relative overflow-x-hidden">
+        <div class="text-[15px] hidden md:block bg-[#f6f7fa]">
+            <div class="max-w-[1000px] m-auto px-3">
+                <div class="container px-5  p-2 flex justify-between mx-auto">
+                    <ul class="space-x-3 md:flex">
+                        <li class="dark:text-[#8d94ad] hover:text-red-700 flex items-center font-light px-1">
+                            <a rel="noopener noreferrer" href="https://tap.az/" target="_blank">Tap.az</a>
+                        </li>
+                        <li class="dark:text-[#8d94ad] hover:text-red-700 flex items-center  font-light px-1">
+                            <a rel="noopener noreferrer" href="https://bina.az/" target="_blank">Bina.az</a>
+    
+                        </li>
+                        <li class="dark:text-[#8d94ad] hover:text-red-700 flex items-center  font-light px-1">
+                            <a rel="noopener noreferrer" href="https://boss.az/" target="_blank">Boss.az</a>
+                        </li>
+                    </ul>
+                    <ul class="items-stretch hidden space-x-3 md:flex">
+                        <li class="flex">
+                            <a rel="noopener noreferrer" href="#"
+                                class="text-[#000] pl-10 -mb-1 mt-1 border-b-2 dark:border-">Dəstək:<span
+                                    class="text-[#000] hover:text-red-700 font-light"> (012) 526-47-47</span></a>
+                        </li>
+                        <li class="flex dark:text-[#8d94ad] hover:text-red-700 font-light px-3">
+                            <a rel="noopener noreferrer" href="#"
+                                class="flex items-center px-1 -mb-1 border-b-2 dark:border-">Yardım</a>
+                        </li>
+                        <li class="flex dark:text-[#8d94ad] hover:text-red-700 font-light">
+                            <a rel="noopener noreferrer" href="#"
+                                class="flex items-center px-1 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">RU</a>
+                        </li>
+                        <li onclick="likeOpen()" class="flex dark:text-[#8d94ad] hover:text-red-700 font-light px-1">
+                            <a rel="noopener noreferrer" href="#"
+                                class="flex items-center px-2 -mb-1 border-b-2 dark:border-">
+                                <i class="fa-solid fa-heart p-2"></i>
+                                Seçilmişlər
+                            </a>
+                        </li>
+                        <li class="flex dark:text-[#8d94ad] hover:text-red-700 font-light">
+                            <a rel="noopener noreferrer" href="#"
+                                class="flex items-center px-1 -mb-1 border-b-2 dark:border-">
+                                <i class="fa-solid fa-circle-user px-1"></i>
+                                Giriş
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="flex justify-end p-4 md:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            class="w-6 mt-5 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <header class="bg-[#ca1016] py-3">
+            <div class="max-w-[1000px] m-auto">
+                <nav
+                    class="text-white flex flex-col gap-5 justify-between text-center m-auto md:flex-row container px-3 md:justify-between items-center">
+                    <div>
+                        <ul class="md:flex text-center items-center font-[500]  text-white">
+                            <li class="px-[10px] uppercase text-[18px] text-white font-[700] md:pr-8 text-center"><a
+                                    href="../index.html" >Turbo.az</a></li>
+                            <li class="lg:px-[10px] px-[5px] my-1 md:my-0 text-[15px]  hover:text-[#fbd3d3e5]"><a
+                                    href="../index.html"  aria-label="Back to homepage">Butun Elanlar</a></li>
+                            <li class="lg:px-[10px] text-[15px]  my-1 md:my-0 px-[5px] hover:text-[#fbd3d3e5]"><a
+                                    href="#" aria-label="Back to homepage" onclick="dilerler()">Dilerler</a></li>
+                            <li class="lg:px-[10px] text-[15px]  my-1 md:my-0 px-[5px] hover:text-[#fbd3d3e5]"><a
+                                    href="#" aria-label="Back to homepage" onclick="avtoKataloq()">Avtokataloq</a>
+                            </li>
+                            <li class="lg:px-[10px] text-[15px]  my-1 md:my-0 px-[5px] hover:text-[#fbd3d3e5]"><a
+                                    href="#" aria-label="Back to homepage" onclick="moto()">Moto</a></li>
+                            <li class="lg:px-[10px] text-[15px]  my-1 md:my-0 px-[5px] hover:text-[#fbd3d3e5]"><a
+                                    href="#" aria-label="Back to homepage" onclick="ehtiyyatHisse()">Ehtiyyat hisseler
+                                    ve
+                                    aksesuarlar</a></li>
+                            <li class="lg:px-[10px] text-[15px]  my-1 md:my-0 px-[5px] hover:text-[#fbd3d3e5]"><a
+                                    href="#" aria-label="Back to homepage" onclick="icare()">Icare</a></li>
+                        </ul>
+                    </div>
+                    <div
+                        class="bg-[#7ed321] h-10 w-[103px]  flex-shrink-0 rounded-[7px] text-white flex justify-center items-center cursor-pointer hover:bg-[#85c01f]">
+                        <i class="fa-regular fa-square-plus px-2"></i>
+                        Yeni elan
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main">
+            <div id="openClose"
+                class="absolute  transition-all duration-300 ease-in-out  top-0 overflow-y-scroll h-screen max-w-[400px] z-10 right-[-100%] bg-white w-[100%] p-2">
+                <div class="flex justify-between align-items m-2">
+                    <span onclick="likeOpen()" class="text-[25px] cursor-pointer">🗙</span>
+                    <button onclick="deleteAll()" class="btn bg-gray-800  hover:text-red-700 text-white px-2 py-1 rounded text-[15px] justify-end">Delete All</button>
+                </div>
+                <div id="likeDiv"></div>
+            </div>
+            <div class="bg-[#ebedf3] py-[20px]" id="change">
+                <div id="error" class="container p-6 mx-auto space-y-8"></div>
+            </div>
+        </main>
+        <footer class="bg-[#f1f3f7] border-t border-[#eaebf2] font-sans ">
+            <div class="h-[60px] ">
+                <div class="h-[100%] flex justify-between items-center w-[970px] mx-auto px-5">
+                    <a target="_blank" class="text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Reklam yerləşdirin</a>
+                    <div class="flex items-center">
+                        <a target="_blank" class="flex ml-[15px] p-[5px] relative text-[#1e6e9d]" href="https://www.facebook.com/www.turbo.az"><svg class="footer__contacts-i__icon" fill="#8D94AD" height="20" viewBox="0 0 10 21" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M2.148 4.059v2.885H.034v3.528h2.114v10.485H6.49V10.473h2.914s.273-1.692.405-3.542H6.507V4.519c0-.36.473-.846.941-.846h2.366V0H6.597c-4.557 0-4.45 3.532-4.45 4.059z" fill-rule="evenodd"></path></svg></a>
+                        <a target="_blank" class="flex ml-[15px] p-[5px] relative text-[#1e6e9d]" href="https://www.instagram.com/turbo.az/"><svg class="footer__contacts-i__icon" fill="#8D94AD" height="20" viewBox="0 0 21 21" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M14.744 0H6.256A6.263 6.263 0 0 0 0 6.256v8.488A6.263 6.263 0 0 0 6.256 21h8.488A6.263 6.263 0 0 0 21 14.744V6.256A6.263 6.263 0 0 0 14.744 0zm4.143 14.744a4.143 4.143 0 0 1-4.143 4.143H6.256a4.143 4.143 0 0 1-4.143-4.143V6.256a4.143 4.143 0 0 1 4.143-4.143h8.488a4.143 4.143 0 0 1 4.143 4.143v8.488zM10.5 5.069A5.437 5.437 0 0 0 5.069 10.5a5.438 5.438 0 0 0 5.431 5.431 5.438 5.438 0 0 0 5.431-5.431A5.437 5.437 0 0 0 10.5 5.069zm0 8.75a3.319 3.319 0 1 1 0-6.638 3.319 3.319 0 0 1 0 6.638zm5.442-7.408a1.301 1.301 0 1 0 0-2.603 1.301 1.301 0 0 0 0 2.603z" fill-rule="evenodd"></path></svg></a>
+                        <div class="ml-[25px] pl-[25px] relative">
+                            <svg class="w-[18px] h-[14px] absolute  top-1/2 left-0 transform -translate-y-1/2" fill="#8D94AD" height="14" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M1.726 4.333c.228.159.914.63 2.058 1.413 1.144.784 2.02 1.387 2.63 1.81.067.047.209.147.426.303.218.155.398.281.542.377.144.096.318.203.522.322.204.119.397.208.577.268.181.06.348.089.502.089h.02c.154 0 .322-.03.502-.09.181-.059.374-.148.578-.267.204-.119.378-.226.521-.322.144-.096.325-.222.543-.377.217-.156.36-.256.426-.303l4.698-3.223a4.74 4.74 0 0 0 1.224-1.22c.328-.476.492-.975.492-1.498 0-.436-.16-.81-.477-1.12a1.56 1.56 0 0 0-1.13-.467H1.607C1.09.028.694.2.416.544.14.888 0 1.318 0 1.834c0 .416.184.867.552 1.353.368.486.76.868 1.174 1.146z"></path><path d="M16.983 5.394c-2.195 1.468-3.861 2.609-4.998 3.422-.382.278-.691.494-.929.65a5.756 5.756 0 0 1-.948.476 2.918 2.918 0 0 1-1.104.243h-.02c-.342 0-.71-.081-1.105-.243a5.758 5.758 0 0 1-.948-.476 23.774 23.774 0 0 1-.929-.65C5.1 8.161 3.436 7.021 1.014 5.394A5.3 5.3 0 0 1 0 4.531v7.875c0 .437.157.81.472 1.121.314.311.692.466 1.134.466h14.775c.442 0 .82-.155 1.134-.466.315-.31.472-.684.472-1.12V4.53a5.516 5.516 0 0 1-1.004.863z"></path></svg>
+                            <a class="text-[13px] md:text-[15px] text-[#212c3a]  hover:text-red-700 no-underline transition-colors duration-200 ease-in-out inline-block" href="mailto:turbo@turbo.az">turbo@turbo.az</a>
+                        </div>
+                        <div class="ml-[25px] pl-[25px] relative">
+                            <svg class="absolute w-[18px] h-[18px] top-1/2 left-0 transform -translate-y-1/2 transition-[fill] duration-200 ease-in-out" fill="#8D94AD" height="20" viewBox="0 0 17 17" width="12" xmlns="http://www.w3.org/2000/svg"><path d="M16.966 13.416a.823.823 0 0 1-.252.72l-2.39 2.375c-.108.12-.248.223-.422.306a1.743 1.743 0 0 1-.512.162c-.012 0-.048.004-.108.01a2.82 2.82 0 0 1-.233.009c-.228 0-.597-.04-1.106-.117-.509-.079-1.132-.27-1.868-.576-.737-.306-1.573-.766-2.507-1.377-.934-.612-1.929-1.452-2.983-2.52-.838-.828-1.533-1.62-2.084-2.376a16.933 16.933 0 0 1-1.33-2.097 11.305 11.305 0 0 1-.755-1.746 9.277 9.277 0 0 1-.341-1.35 4.466 4.466 0 0 1-.072-.891 15.2 15.2 0 0 0 .018-.36 1.74 1.74 0 0 1 .162-.513c.084-.174.185-.315.305-.423L2.878.258a.79.79 0 0 1 .575-.252.67.67 0 0 1 .413.135c.12.09.222.2.306.333l1.922 3.654a.877.877 0 0 1 .09.63c-.048.228-.15.42-.305.576l-.88.882a.3.3 0 0 0-.064.117.445.445 0 0 0-.026.135c.047.252.155.54.323.864.144.288.365.639.665 1.053.3.414.725.89 1.276 1.43.539.553 1.018.982 1.437 1.288a8.3 8.3 0 0 0 1.051.675c.282.144.497.23.647.26l.225.045a.428.428 0 0 0 .117-.027.3.3 0 0 0 .116-.063l1.025-1.044a1.1 1.1 0 0 1 .754-.288c.204 0 .366.036.485.108h.018l3.468 2.052c.252.157.402.355.45.595z"></path></svg>
+                            <a class="block  text-[#212c3a] hover:text-red-700 no-underline transition-colors duration-200 ease-in-out" href="tel:+994125264747">(012) 526-47-47</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[60px]">
+                <div class="h-[100%] flex items-center w-[970px] mx-auto px-5">
+                    <a target="_blank" class="text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Qaydalar</a>
+                    <a target="_blank" class="ml-10 text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Qanun</a>
+                    <a target="_blank" class="ml-10 text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">İstifadəçi razılaşması</a>
+                    <a target="_blank" class="ml-10 text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Məxfilik siyasəti</a>
+                    <a target="_blank" class="ml-10 text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Sifarişli avtomobil alan alıcı üçün tövsiyələr</a>
+                    <a target="_blank" class="ml-5 text-[13px] md:text-[15px] text-[#212c3a] no-underline transition-colors duration-200 ease-in-out inline-block" href="#">Reklam yerləşdirin</a>
+    
+                </div>
+            </div>
+         <div class="bg-[#ca1016] h-[90px] text-white md:text-base sm:text-sm ">
+            <div class="h-[100%] flex justify-between items-center w-[970px] mx-auto px-5">
+                <div class="text-[13px] flex-none w-[390px]">
+                    Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş elanların məzmununa görə məsuliyyət daşımır.
+                </div>
+                <div class="flex items-center">
+                   <div class="mr-[25px]">2006-2025 Digital Classifieds MMC. VÖEN: 1405631661</div>
+                   <a href="index.html" class="no-underline">Mobil versiyası</a>
+                </div>
+            </div>
+         </div>
+        </footer>
+        <script src="../data.js"></script>
+        <script src="../basket.js"></script>
+        <script src="../utils.js"></script>
+        <script src="../details.js"></script>
+    </body>
+</body>
+</html>
