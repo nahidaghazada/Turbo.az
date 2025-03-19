@@ -22,6 +22,12 @@ let banTypeArr = [...new Set(data.map(item => { return item.banType }))]
 let yearMinArr = [...new Set(data.map(item => { return item.year }))]
 let yearMaxArr = [...new Set(data.map(item => { return item.year }))]
 
+data.forEach(item => {
+    let startCount = 0
+    basket.forEach(stat => item.id == stat.id ? startCount ++ : startCount)
+    if(startCount == 1) item.status = true
+})
+
 let count = 8
 function show() {
     let kod = ''
